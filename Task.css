@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    /* outline: 1px solid red; */
+}
+body{
+    background-color:#F2F2F2 ;
+}
+.global{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../Images/slide01.jpg");
+}
+.head{
+    padding-top:30px;
+    padding-left:10px;
+    padding-right:10px;
+    display: flex;
+    justify-content: space-between;
+}
+.HieloByTempalted{
+    font-family: 'Spartan-black', sans-serif;
+    color: white;
+    font: inherit;
+}
+.HieloByTempalted a{
+    font-family: 'Spartan-black', sans-serif;
+    font-size: 1.25em;
+    text-decoration: none;
+    color: white;
+}
+.HieloByTempalted a:hover{
+    color: #A9ACAC;
+}
+.HieloByTempalted p{
+    color: #A9ACAC;
+}
+.Bt{
+    display: flex;
+}
+button {
+    padding:5px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: #ffffff00;
+}
+button img{
+    color: white;
+    width: 29px;
+    height: 29px;
+}
+.Menu{
+    font-family: 'Spartan-black', sans-serif;
+    padding: 0px;
+    color: white;
+    display: inline-block;
+}
+.DropMenuLink {
+    display: none;
+    position: absolute;
+    background-color:#000000d9;
+    right: 0px;
+    top:0px;
+    width: 200px;
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
+}
+.DropMenuLink a {
+    margin-right:20px;
+    margin-left:20px ;
+    color: #A9ACAC;
+    border-bottom: 1px solid grey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#FirstChild{
+    margin-top: 30px;
+}
+.DropMenuLink a:last-child{
+    border: none;
+}
+.DropMenuLink a:hover {
+    color: white;
+}
+.Menu:hover .DropMenuLink {
+    display: block;
+}
+#DropMenuBt{
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+}
+#DropMenuBt img {
+    width: 15px;
+    height: 15px;
+}
+#DropMenuBt :hover {
+    cursor: pointer;
+}
+.text{
+    margin-top:150px;
+}
+.text p{
+    font-family: 'Spartan-black', sans-serif;
+    text-align: center;
+}
+.FirstText{
+    font-family: 'Spartan-black', sans-serif;
+     letter-spacing: 7px;
+     text-transform: uppercase;
+     font-size: 20px;
+     color: #A9ACAC;
+}
+.LastText{
+    width: 260px;
+    border-top:1px solid white;
+    font-family: 'Spartan-black', sans-serif;
+    font-size: 7rem;
+    margin: 30px auto;
+    color: white;
+}
+.Carusel{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin:200px auto 0px auto;
+}
+.Carusel button{
+    margin: 50px 10px 25px 10px;
+    background-color: #A9ACAC;
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.Carusel button:hover{
+    border-radius: 10px;
+    background-color: white;
+}
+.List{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.Pic03,
+.Pic02{
+    background-color: white;
+}
+.Pic02FirstText{
+    font-family: 'Spartan-black', sans-serif;
+    margin-top: 25px;
+    word-spacing:5px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #A9ACAC;
+    text-transform: uppercase;
+}
+.Pic02Name{
+    font-family: 'Spartan-black', sans-serif;
+    font-size: 33px;
+    border-top: 1px solid #A9ACAC;
+    width: 290px;
+    margin: 15px auto;
+    text-align: center;
+}
+.Pic02LastText{
+    color: #A9ACAC;
+    line-height: 26px;
+    font-family: 'Spartan-black', sans-serif;
+    font-size: 17px;
+    margin: 25px auto;
+    width: 515px;
+}
+.Pic02Bt{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+.Pic02Bt button{
+    padding: 15px 20px;
+    font-size: 16px;
+    font-family: 'Spartan-black', sans-serif;
+    border: 3px solid  rgba(128, 128, 128, 0.555);
+    background-color: white;
+    border-radius: 5px;
+    color: black
+}
+.Pic02Bt button:hover{
+    background-color:#F2F2F2;
+}
+.MorbiMaximusJusto {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-image: url("../Images/bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.Text{
+    justify-content: center;
+    margin: 100px auto;
+}
+.Text p{
+    text-align: center;
+    font-family: 'Spartan-black', sans-serif;
+    color: #A9ACAC;
+    letter-spacing: .25rem;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.Line{
+    width: 700px;
+    margin: 10px auto;
+    border-top: 2px solid white;
+}
+.Text h1{
+    margin: 10px auto;
+    font-family: 'Spartan-black', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.TextTwo{
+    font-family: 'Spartan-black', sans-serif;
+    justify-content: center;
+    margin: 100px auto;
+}
+.TextTwo p{
+    text-align: center;
+    color: #A9ACAC;
+    letter-spacing: .25rem;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.LineTwo{
+    width: 700px;
+    margin: 10px auto;
+    border-top: 2px solid #A9ACAC;
+}
+.TextTwo h1{
+    margin: 10px auto;
+    font-family: 'Spartan-black', sans-serif;
+    color:black;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.Photo{
+    margin: 0 auto;
+    width: 1240px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Photo div{
+    box-shadow: 0px 0px 0px 15px white;
+    margin: 30px;
+    width: 560px;
+    height: 300px;
+}
+.Photo div img{
+    width: 560px;
+    height: 300px;
+}
+.Footer{
+    height: 250px;
+    margin-top: 100px;
+    background-color: black;
+}
+.Links{
+    justify-content: center;
+    display: flex;
+    margin: auto 0px auto; 
+}
+.Links a{
+    text-decoration: none;
+    margin: 100px  0px 30px 0;
+}
+.fa {
+    font-size: 40px;
+    width: 45px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover{
+    color: white;
+}
+.fa-instagram,
+.fa-twitter,
+.fa-facebook{
+    background-color: black;  
+    color: #A9ACAC;  
+}
+.Footer p{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+@media only screen and (max-width:800px){
+   .HieloByTempalted{
+       color: blue;
+   }
+   .DropMenuLink {
+    width: 20vw;
+    height: 100vh;
+   }
+   .text{
+       margin-top: 10px ;
+   }
+   .Carusel{
+       margin:5px 0px;
+   }
+   .List{
+       justify-content: center;
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .LineTwo,
+   .Line{
+       width: 350px;
+   }
+   .Photo{
+       width: 600px;
+    justify-content: center;
+    display: block;
+    /* flex-wrap: wrap; */
+   }
+   .Photo div{
+       margin: 50px 0 0 20px;
+   }
+}
